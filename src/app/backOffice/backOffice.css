@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    gap:20px;
+}
+.sidebar{
+padding:100px 10px;
+width: 200px;
+height: 100vh;
+background-color:#E8DDF8;
+}
+.sidebar-btn{
+    width: 100%;
+    background: #E8DDF8;
+    color: #310676;
+    text-align: left;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.sidebar-btn:hover{
+    background: #310676;
+    color: white;
+}
+.sidebar-btn.active {
+    background-color: #310676; /* Customize the active state styling */
+    color: white;
+}
